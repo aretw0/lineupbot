@@ -10,6 +10,10 @@ const keyboard = Markup.inlineKeyboard([
     Markup.callbackButton('Apagar', 'delete')
 ])
 
+const fests = Markup.inlineKeyboard([
+    Markup.callbackButton('Coquetel Molotov 2019', 'cqtlmltv')
+])
+
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
@@ -135,15 +139,16 @@ bot.command('start', ctx => {
 });
 
 bot.action('delete', ({ deleteMessage }) => deleteMessage())
+bot.action('cqtlmltv', ({ reply }) => reply(getOne(),Extra.markdown(),Extra.markup(keyboard)))
 
-bot.command('getall', ctx => {
+bot.command('available', ctx => {
     logMsg(ctx)
     ctx.reply(getAll(),Extra.markdown(),Extra.markup(keyboard))
 })
 
 bot.command('get', ctx => {
     logMsg(ctx)
-    ctx.reply(getOne(),Extra.markdown(),Extra.markup(keyboard))
+    ctx.reply(Extra.markup(fests),Extra.markup(keyboard))
 })
 
 bot.launch();
