@@ -19,7 +19,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN)
 
 const helpMsg = `Comandos:
 /start - Inicia bot (obrigatórios em grupos)
-/get x - Mostra Line-up do festival x
+/get - Oferece line-up's a serem mostrados
 /available - Mostra os festivais disponíveis
 /about - Mostra informação sobre o bot
 /help - Mostra essas informações`
