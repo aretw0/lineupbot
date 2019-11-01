@@ -2,7 +2,7 @@
   "name": "lineupbot",
   "version": "1.0.0",
   "description": "TelegramBot para exibição de lineup's de festivais de forma elegante e bem formatada.",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
