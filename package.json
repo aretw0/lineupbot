@@ -1,0 +1,27 @@
+{
+  "name": "lineupbot",
+  "version": "1.0.0",
+  "description": "TelegramBot para exibição de lineup's de festivais de forma elegante e bem formatada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aretw0/lineupbot.git"
+  },
+  "keywords": [
+    "BOT",
+    "Telegram",
+    "Lineup's"
+  ],
+  "author": "Arthur Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aretw0/lineupbot/issues"
+  },
+  "homepage": "https://github.com/aretw0/lineupbot#readme",
+  "dependencies": {
+    "telegraf": "^3.33.3"
+  }
+}

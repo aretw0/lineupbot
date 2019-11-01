@@ -1,0 +1,68 @@
+{
+    "cqtl_mltv": {
+        "name": "Coquetel Molotov",
+        "localization": "Caxangá Golf & Country Club - Recife (PE)",
+        "edition_year": 2019,
+        "fulldate": "16/11/2019", 
+        "n_stages": 4,
+        "stages": ["SOM NA RURAL", "Sonic", "CQTL MLTV", "Natura Musical"],
+        "line_up": [
+            {
+                "name": "Batestaca (PE) convida Maddam (PE)",
+                "time": "XX:XX",
+                "stage": "Som na Rural"
+            },
+            {
+                "name": "D'Renor",
+                "time": "13:00",
+                "stage": "Som na Rural"
+            },
+            {
+                "name": "Aventura (PE)",
+                "time": "15:00",
+                "stage": "Som na Rural"
+            }
+        ]
+    }
+}
+
+/* 
+ 15:00        |                    AVENTURA (PE)                  |             SONIC
+ 15:30        |                 UANA MAHIN (PE)               |   NATURA MUSICAL
+ 15:30        |                              STV                               |      SOM NA RURAL
+ 16:10        |              SILBA CARVALHO (PE)           |             SONIC
+ 16:30        |               CLARICE FALCÃO (PE)           |   NATURA MUSICAL
+ 15:40        |                        LADY LAAY                       |      SOM NA RURAL
+ 17:00        |                     MC THA (SP)                       |         CQTL MLTV
+ 17:20        |                       TORRE (PE)                       |             SONIC
+ 17:40        |                   TERNO REI (SP)                   |   NATURA MUSICAL
+ 17:50        |                  NUBIAN QUEEN                  |      SOM NA RURAL
+ 18:10        |           LIA DE ITAMARACÁ (PE )          |         CQTL MLTV
+ 18:30        |     SATANIQUE SAMBA TRIO (DF)     |             SONIC
+ 18:50        |                 ROSA NEON (MG)                |   NATURA MUSICAL
+ 19:00        |              JHNT (DISONEXA-RN)            |      SOM NA RURAL
+ 19:20        |       SEVDALIZA (IRÂ/HOLANDA)      |         CQTL MLTV
+ 19:40        |             TACO DE GOLFE (SE)               |             SONIC
+ 20:00        |               DRIK BARBOSA (SP)             |   NATURA MUSICAL
+ 20:10        |                         LUPE                               |      SOM NA RURAL
+ 20:30        |                  LUIZ LINS (PE)                    |         CQTL MLTV
+ 20:50        |                     SASKIA (RS)                       |             SONIC
+ 21:10        |                     DENOV (SP)                      |   NATURA MUSICAL
+ 21:20        |                MATI (TISCK-RN)                  |      SOM NA RURAL
+ 21:40        | LINIKER E OS CARAMELOWS (SP) |         CQTL MLTV
+ 22:00        |                      BIONE (PE)                       |             SONIC
+ 22:20        | DANI COSTA, A QUERIDINHA (PE) |  NATURA MUSICAL
+ 22:30        |                          LILIT                               |      SOM NA RURAL
+ 23:00        |               BLACK ALIEN (SP)                 |         CQTL MLTV
+ 23:10        |                  JURANDEX (PE)                    |             SONIC
+ 23:30        |                 OQUADRO (BA)                    |  NATURA MUSICAL
+ 23:40        |                        BAYMA                             |      SOM NA RURAL
+ 00:20        |                  COPPOLA (SP)                    |         CQTL MLTV
+ 00:20        |                      RAÇA (SP)                         |             SONIC
+ 00:40        |                REVÉRSE DJS (PE)                  |  NATURA MUSICAL
+ 00:50        |               GUI BORATTO (SP)                |         CQTL MLTV
+ 01:00        |         NADEJDA B2B AVENOIR            |      SOM NA RURAL
+ 01:50        |                   GOP UN (SP)                      |  NATURA MUSICAL
+
+
+*/
