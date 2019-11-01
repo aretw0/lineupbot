@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Telegraf = require('telegraf');
 
 const {
@@ -14,7 +15,7 @@ const fests = Markup.inlineKeyboard([
     Markup.callbackButton('Coquetel Molotov 2019', 'cqtlmltv')
 ])
 
-
+console.log(process.env.BOT_TOKEN)
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
 const helpMsg = `Comandos:
