@@ -53,9 +53,10 @@ function getAll() {
     let m =
     `Festivais disponíveis
     -----------------------------
-       Data  |       Nome       |  Palcos
-    --------- ------------------ --------
-    16/11/19 | Coquetel Molotov | 4
+
+       Data     |       Nome       |  Palcos
+    ------------ ------------------ ------------
+    16/11/19    | Coquetel Molotov    | 4
     `
 
     return m
@@ -63,7 +64,8 @@ function getAll() {
 function getOne(txt) {
     let m = 
     `Line Cronológico
-    -------------------    
+    -------------------
+
      Hora  |               Artista              |       Palco
     ------ | ---------------------------------- | ------------------
      xx:xx | BATESTACA (PE) convida MADDAM (PE) | SOM NA RURAL
