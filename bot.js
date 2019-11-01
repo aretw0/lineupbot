@@ -149,7 +149,7 @@ bot.command('available', ctx => {
 
 bot.command('get', ctx => {
     logMsg(ctx)
-    ctx.reply(Extra.markup(fests),Extra.markup(keyboard))
+    ctx.reply(Extra.markup(fests))
 })
 
 bot.launch();
