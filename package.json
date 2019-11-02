@@ -5,6 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon bot.js",
     "start": "node bot.js"
   },
   "repository": {
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/aretw0/lineupbot#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
     "telegraf": "^3.33.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
